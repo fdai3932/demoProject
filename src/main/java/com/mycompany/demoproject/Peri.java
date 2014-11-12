@@ -20,6 +20,6 @@ public class Peri {
     }
     
     public double rec_peri(){
-        return 3*(this.hight + this.width); //test
+        return 2*(this.hight + this.width); //test
     }
 }
