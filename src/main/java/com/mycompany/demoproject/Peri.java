@@ -15,7 +15,7 @@ public class Peri {
     double width;
     
     public Peri(String height, String width){
-        this.height = Double.parseDouble(height);//
+        this.height = Double.parseDouble(height);//ghfhg
         this.width = Double.parseDouble(width);
     }
     
