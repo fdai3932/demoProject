@@ -11,15 +11,15 @@ package com.mycompany.demoproject;
  * @author Achille
  */
 public class Peri {
-    double hight;
+    double height;
     double width;
     
-    public Peri(String hight, String width){
-        this.hight = Double.parseDouble(hight);
+    public Peri(String height, String width){
+        this.height = Double.parseDouble(height);
         this.width = Double.parseDouble(width);
     }
     
     public double rec_peri(){
-        return 2*(this.hight + this.width);
+        return 2*(this.height + this.width);
     }
 }
